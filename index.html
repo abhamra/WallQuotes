@@ -5,8 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/main.js"></script> 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114022587-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114022587-1');
+</script>
 </head>
 <body>
+	<div>
+		<img src="Images/hi.png" id="settings-btn">
+	</div>
 	<!-- Image and text --><!-- 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">WallQuotes</a>
@@ -40,9 +52,11 @@
 <!-- <h1 class="Title text-center">| WallQuotes | Your home for Inspiration! |</h1> -->
 
 <div class="quote-container text-center" id = "quote-container">
+	<div class="quote-box">
 	<h2 class = "quote" id = "quote" >A penny saved is a penny earned!</h2>
 	<p class="Author" id = "author"> ~ Ben Franklin</p>
 	<button class="primary btn btn-primary", onclick="myFunction()">Next</button>
+	</div>
 </div>
 </body>
 </html>
